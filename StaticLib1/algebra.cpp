@@ -2,7 +2,13 @@
 #include "algebra.h"
 #include <cmath>
 
-algebra::algebra() : a(0), b(0), c(0), d(0) {}
+algebra::algebra()
+{
+	a = 0; 
+	b = 0; 
+	c = 0; 
+	d = 0;
+}
 void algebra::setValues(double aV, double bV, double cV, double dV)
 {
 	a = aV;
